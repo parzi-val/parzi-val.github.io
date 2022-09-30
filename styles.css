@@ -4,13 +4,21 @@
   margin: 0;
   align-items: center;
   justify-content: center;
-  padding-top:10vw;
+  padding-top:10%;
 }
 body{
   background-color: #262626;
 }
 img {
   max-width: 100%;
-  width:40vw;
+  width: 30%;
   height:auto;
+  animation: anim 1.2s ease-in-out;
+  animation-play-state: paused;
+}
+img:active{
+  animation-play-state:running;
+}
+@keyframes anim{
+ 100% {transform:translateX(-100%) scale(30%);}
 }
