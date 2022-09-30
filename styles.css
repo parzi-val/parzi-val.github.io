@@ -13,12 +13,13 @@ img {
   max-width: 100%;
   width: 30%;
   height:auto;
-  animation: anim 1.2s ease-in-out;
-  animation-play-state: paused;
+  
 }
-img:active{
-  animation-play-state:running;
+
+.shrink{
+  animation: anim 1.2s ease-in-out forwards;
 }
+
 @keyframes anim{
- 100% {transform:translateX(-100%) scale(30%);}
+ 100% {transform:translateX(-100%) scale(55%);}
 }
