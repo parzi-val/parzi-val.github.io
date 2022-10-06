@@ -1,0 +1,3 @@
+click mic
+speak
+go
